@@ -11,41 +11,23 @@
 
 
 
-    <div class="pos-f-t">
-      <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <h5 class="text-white h4">Collapsed content</h5>
-          <span class="text-muted">Toggleable via the navbar brand.</span>
-        </div>
+    <nav class="navbar navbar-expand-lg bg-light text-uppercase fixed-top" id="mainNav">
+      <div class="container">
+          <a class="navbar-brand fw-bold" href="#page-top">Abacus Convention Center</a>
+          <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              Menu
+              <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded fw-bold" href="#portfolio">Home</a></li>
+                  <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded fw-bold" href="#about">About Us</a></li>
+                  <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded fw-bold" href="#contact">Contact</a></li>
+                  <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded fw-bold" href="#contact">Subscribe</a></li>
+              </ul>
+          </div>
       </div>
-      <nav class="navbar navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </nav>
-    </div>
-
-
-
-    <nav class="navbar bg-white pt-4 pb-4 pe-5">
-      <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1 ps-5 h1 fw-bold">Abacus Convention Center</span>
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link active text-dark fw-bold" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark fw-bold " href="#">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark fw-bold" href="#">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark fw-bold">Subscribe</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+  </nav>
     
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
       <div class="carousel-indicators">
@@ -54,8 +36,8 @@
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/banner.png" class="d-block w-100" alt="...">
+        <div class="carousel-item active ">
+          <img class="img-fluid" src="images/banner.png" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block ">
             <h1 class="fw-bold">The perfect venue for your <br> next event</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos aliquam magnam magni itaque,</p>
@@ -104,7 +86,7 @@
                   <p><i class="fa-solid fa-circle-check "></i> Per day bill</p>
                   <button class=" btn-large  btn btn-outline-primary px-5 rounded-5">Choose plan</button>
                 </div>
-                <div class="col  mx-3 my-3 p-5">
+                <div class="col mx-3 my-3 p-5">
                   <h1><sup>$</sup>500</h1>
                   <h2>Business fair</h2>
                   <p>For most business event like book fair. craft fair.</p>
@@ -173,7 +155,7 @@
       <br><br><br><br>
      <div class="container">
          <div class="row">
-                       <div class="col-sm-12">
+                       <div class="col">
                         <div class="accordion" id="accordionPanelsStayOpenExample">
                           <div class="accordion-item">
                             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
