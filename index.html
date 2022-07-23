@@ -8,6 +8,25 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   </head>
   <body>
+
+
+
+    <div class="pos-f-t">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <h5 class="text-white h4">Collapsed content</h5>
+          <span class="text-muted">Toggleable via the navbar brand.</span>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+    </div>
+
+
+
     <nav class="navbar bg-white pt-4 pb-4 pe-5">
       <div class="container-fluid">
         <span class="navbar-brand mb-0 h1 ps-5 h1 fw-bold">Abacus Convention Center</span>
@@ -39,8 +58,8 @@
           <img src="images/banner.png" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block ">
             <h1 class="fw-bold">The perfect venue for your <br> next event</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos aliquam magnam magni itaque,<br> nobis quod mollitia quibusdam ullam eius repellat ut! Consectetur eveniet earum, suscipit natus voluptate architecto debitis distinctio.</p>
-            <button class="text-center btn text-primary bg-white fw-bold ps-4 pe-4 pt-2 pb-2">Book Now</button>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos aliquam magnam magni itaque,</p>
+            <button class="text-center btn text-primary bg-white fw-bold ps-4 pe-4 pt-2 pb-2 rounded-5">Book Now</button>
             <br><br><br><br><br>
           </div>
         </div>
@@ -58,25 +77,23 @@
  
      <br><br><br><br><br>
       <div class="container">
-          <div class="row d-flex flex-direction-column align-items-center cols-sm-6">
-               <div class="img-fluid w-50">
-                  <img src="images/wedding.png" alt="">
-               </div>
-               <div class="w-50">
-                  <h1 class="fw-bold">Every Moment is precious</h1>
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, omnis mollitia natus fuga deleniti autem consectetur quaerat similique accusamus ad est consequuntur architecto maiores! Culpa nisi beatae temporibus enim dolorum?</p>
-                  <button class="px-3 py-2 btn btn-primary fw-bold">Explore our album &nbsp;<i class="fa-solid fa-arrow-right-long"></i></button>
-                </div>
+          <div class="row">
+              <div class="col-12">
+                <img  class="img-fluid" src="images/wedding.png" alt="">
+             </div>
+             <div class="col">
+                <h1 class="fw-bold">Every Moment is precious</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, omnis mollitia natus fuga deleniti autem consectetur quaerat similique accusamus ad est consequuntur architecto maiores! Culpa nisi beatae temporibus enim dolorum?</p>
+                <button class="px-3 py-2 btn btn-primary fw-bold rounded-5">Explore our album &nbsp;<i class="fa-solid fa-arrow-right-long"></i></button>
+              </div>      
           </div>
       </div>
       <br><br><br><br><br>
      <h1 class="text-center">Our Package</h1>
      <br><br>
      <div class="container">
-            <div class="row ">
-                
-              <div class="d-flex ">
-                <div class=" w-25 mx-3 my-3 p-5">
+            <div class="row">
+                <div class="col mx-3 my-3 p-5">
                   <h1><sup>$</sup>300</h1>
                   <h2>Business fair</h2>
                   <p>For most business event like book fair. craft fair.</p>
@@ -87,7 +104,7 @@
                   <p><i class="fa-solid fa-circle-check "></i> Per day bill</p>
                   <button class=" btn-large  btn btn-outline-primary px-5 rounded-5">Choose plan</button>
                 </div>
-                <div class=" w-25 mx-3 my-3 p-5">
+                <div class="col  mx-3 my-3 p-5">
                   <h1><sup>$</sup>500</h1>
                   <h2>Business fair</h2>
                   <p>For most business event like book fair. craft fair.</p>
@@ -98,7 +115,7 @@
                   <p><i class="fa-solid fa-circle-check "></i> Per day bill</p>
                   <button class=" btn-large  btn btn-outline-primary px-5 rounded-5">Choose plan</button>
                 </div>
-                <div class="bg-info w-25 mx-3 my-3 p-5 rounded-4 shadow">
+                <div class=" col  bg-info mx-3 my-3 p-5 rounded-4 shadow">
                   <h1><sup>$</sup>800</h1>
                   <h2>Business fair</h2>
                   <p>For most business event like book fair. craft fair.</p>
@@ -109,7 +126,7 @@
                   <p><i class="fa-solid fa-circle-check "></i> Per day bill</p>
                   <button class=" btn-large  btn btn-outline-light rounded-5 px-5">Choose plan</button>
                 </div>
-                <div class=" w-25 mx-3 my-3 p-5">
+                <div class="col mx-3 my-3 p-5">
                   <h1><sup>$</sup>1200</h1>
                   <h2>Business fair</h2>
                   <p>For most business event like book fair. craft fair.</p>
@@ -120,7 +137,6 @@
                   <p><i class="fa-solid fa-circle-check "></i> Per day bill</p>
                   <button class=" btn-large  btn btn-outline-primary px-5 rounded-5">Choose plan</button>
                 </div>
-              </div>
             </div>
      </div>
      <br><br><br><br><br>
@@ -128,30 +144,27 @@
      <br><br><br>
      <div class="container">
           <div class="row">
-              <div class="d-flex justify-content-center">
-                  <div class="shadow rounded-2 text-center px-5 py-2 rounded-2">
+                  <div class="col shadow rounded-2 text-center mx-4 my-3 px-5 py-2 rounded-2">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, accusamus id. A ut impedit hic at recusandae. Voluptatum, quos voluptatem.</p>
                     <img src="images/person 1.png" alt="">
                     <h5>Regina Miles</h5>
                     <p>Banker</p>
                   </div>
-                  
-                  <div class=" shadow rounded-2 text-center ms-4 px-5 py-2 rounded-2">
+                  &nbsp;&nbsp;
+                  <div class=" col shadow rounded-2 text-center mx-4 px-5   my-3  py-2  rounded-2">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, accusamus id. A ut impedit hic at recusandae. Voluptatum, quos voluptatem.</p>
                     <img src="images/person 2.png" alt="">
                     <h5>Regina Miles</h5>
                     <p>Banker</p>
+                  
                   </div>
-
-
-                  <div class=" shadow rounded-2 text-center ms-4 px-5 py-2 rounded-2">
+                  &nbsp;&nbsp;
+                  <div class="col shadow rounded-2 text-center mx-4 my-3  px-5 py-2  rounded-2">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, accusamus id. A ut impedit hic at recusandae. Voluptatum, quos voluptatem.</p>
                     <img src="images/person 3.png" alt="">
                     <h5>Regina Miles</h5>
                     <p>Banker</p>
                   </div>
-
-              </div>
           </div>
      </div>
       <br><br><br><br><br>
@@ -160,8 +173,7 @@
       <br><br><br><br>
      <div class="container">
          <div class="row">
-                 <div class="d-flex">
-                       <div class="w-50">
+                       <div class="col-sm-12">
                         <div class="accordion" id="accordionPanelsStayOpenExample">
                           <div class="accordion-item">
                             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -214,10 +226,9 @@
                           </div>
                         </div>
                        </div>
-                       <div class="ms-5 w-50">
-                           <img src="images/people.png" alt="">
+                       <div class="col">
+                           <img class="img-fluid" src="images/people.png" alt="">
                        </div>
-                 </div>
          </div>
      </div>
      <br><br><br><br><br><br><br><br><br>
