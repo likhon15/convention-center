@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <script src="https://kit.fontawesome.com/5ccb13b2f7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   </head>
   <body>
@@ -29,32 +30,22 @@
       </div>
   </nav>
     
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
+    
+  <div class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner text-center">
         <div class="carousel-item active">
-          <img class="img-fluid w-100" src="images/banner.png" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block ">
-            <h1 class="fw-bold">The perfect venue for your <br> next event</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos aliquam magnam magni itaque,</p>
-            <button class="text-center btn text-primary bg-white fw-bold ps-4 pe-4 pt-2 pb-2 rounded-5">Book Now</button>
-            <br><br><br><br><br>
-          </div>
+            <div class=" h-100 align-items-center justify-content-center">
+              <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <h1>The perfect venue for your next event</h1><br>   
+                <p class="text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro repudiandaebr
+                  <br> beatae laborum asperiores optio consequuntur dolorem nemo amet nostrum assumenda iure accusantium, sequi vel eligendi. Velit quos unde commodi placeat.</p>           
+              <button class="btn btn-primary rounded-5 px-5">Book Now</button>
+              </div>
+              
         </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+        
     </div>
+</div>
     
  
      <br><br><br><br><br>
@@ -208,7 +199,7 @@
                           </div>
                         </div>
                       </div>
-                       <div class="col">
+                       <div class="col-sm-12 col-md-6 col-lg-6 my-5">
                            <img class="img-fluid" src="images/people.png" alt="">
                        </div>
          </div>
